@@ -53,16 +53,19 @@ YOU DO
 """
 # Modify the supplied code so that all of the statements evaluate to True
 # change this code
+print("Start")
 number = 10
 second_number = 10
 first_array = []
 second_array = [1,2,3]
-
+number = number * 1.55
 print(bool(number > 15))
-
+first_array = [number]
 print(bool(first_array))
-
+second_array.pop()
 print(len(second_array) == 2)
+
+second_array.append([number, second_number, number])
 
 print(len(first_array) + len(second_array) == 5)
 
